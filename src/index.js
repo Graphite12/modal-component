@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Modal from "./Modal";
+import "./Main.css";
+import "./components/Modal.css";
+import Main from "./Main";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Modal />
+    <Main />
   </React.StrictMode>,
   document.getElementById("root")
 );
